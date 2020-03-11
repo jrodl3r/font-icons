@@ -1,5 +1,5 @@
 # Font-Icons
-Roll your own custom CSS Font Icons in a few easy steps...
+Create your own custom CSS Font Icons in a few easy steps!
 
 ## Usage Guide
 **1. Install FontCustom:** https://github.com/FontCustom/fontcustom
@@ -9,12 +9,11 @@ Roll your own custom CSS Font Icons in a few easy steps...
 **3. Build Assets:** `fontcustom compile icons`
 
 **4. Add Icons:**
-- Move the `/fontcustom` folder to your project.
-- Include `fontcustom/fontcustom.css` in your index.
-- Access the icons by creating a tag with the class `icon-{{SVG_FILENAME}}`:
+- Move the `/fontcustom` folder to your project and include: `fontcustom/fontcustom.css`
+- Access icons by creating a tag with the class: `icon-{{SVG_FILENAME}}`:
 ```
-  <i class="icons-home"></i>
+  <i class="icon-home"></i>
 ```
 
 ## Preview
-For a nice preview showcasing various sizes of your icon checkout the generated `fontcustom-preview.html` file in any browser.
+For a preview of your icons open `fontcustom-preview.html` in any browser.
